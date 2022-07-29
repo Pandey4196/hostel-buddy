@@ -395,3 +395,26 @@ color: #FFFFFF;
   
   color: #FFFFFF;
 }
+
+.login-bg-box{
+  position: absolute;
+width: 35%;
+height: 85%;
+left: 32.5%;
+top: 11%;
+
+background: #20835E;
+opacity: 0.8;
+border-radius: 49px;
+}
+
+.under-line-1{
+  position: absolute;
+width: 347px;
+height: 0px;
+left: 17%;
+top: 25%;
+
+border: 1px solid #E7E6E6;
+}
+
