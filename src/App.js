@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import Landing from "./components/Landing";
-import LoginForm from "./components/LoginForm";
+import SignupForm from "./components/SignupForm";
 import Intro from "./components/Intro";
 
 function App() {
 
     return (
       <div className="App">
-      <LoginForm />
+      <Intro  />
       </div>
   );
 }

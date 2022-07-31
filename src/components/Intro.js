@@ -1,5 +1,8 @@
 import React  from "react";
 import logo from "./logo.png";
+import SignupForm from "./SignupForm.js";
+import root from "../index.js"
+
 
 export default function Intro() {
     return(
@@ -11,10 +14,15 @@ export default function Intro() {
             <button className="button-login">
                 LOGIN
             </button>
-            <button className="button-signup">
+            <button className="button-signup" >
                 SIGNUP
             </button>
-            
+            <h1 className="hostelbuddy-intro-header-1">
+                Hostel
+            </h1>
+            <h1 className="hostelbuddy-intro-header-2">
+                Buddy
+            </h1>
             </nav>
             <div className="left-main-box">
                 Reliable, Fast, Friendly.
