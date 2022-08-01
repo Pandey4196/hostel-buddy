@@ -1,22 +1,25 @@
 import React  from "react";
-import logo from "./logo.png";
-import SignupForm from "./SignupForm.js";
-import root from "../index.js"
+import logo from "../images/logo.png";
+import { BrowserRouter as Router, Link, Route ,Routes } from "react-router-dom";
 
 
 export default function Intro() {
     return(
-        <>
+        <Router>
             <div className="main-solid">
             
             <nav> 
             <img src={logo} className="logo" />
+            <Link to ='/login'>
             <button className="button-login">
                 LOGIN
             </button>
+            </Link>
+            <Link to ='/signup'>
             <button className="button-signup" >
                 SIGNUP
             </button>
+            </Link>
             <h1 className="hostelbuddy-intro-header-1">
                 Hostel
             </h1>
@@ -44,6 +47,6 @@ export default function Intro() {
             </div>
 
             </div>
-        </>
+        </Router>
     )
 }

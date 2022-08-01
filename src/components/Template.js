@@ -9,10 +9,10 @@ export default function Template() {
            </div>
             <div className="topnav">
             <div className="left-nav">
-            <a>
+            <p id="hostel-buddy-template-header">
             <h1 className="header1">Hostel</h1>
             <h1 className="header2">Buddy</h1>
-            </a>
+            </p>
             </div>
  
             <div>

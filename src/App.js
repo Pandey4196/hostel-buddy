@@ -1,14 +1,18 @@
 import React, { useState } from "react";
 import Landing from "./components/Landing";
-import SignupForm from "./components/SignupForm";
+import { BrowserRouter as Router,  
+  Route,} from "react-router-dom";
+import SignupForm from "./components/SignupForm"
 import Intro from "./components/Intro";
+import LoginForm from "./components/LoginForm";
+import OrderDetails from "./components/OrderDetails";
 
 function App() {
 
     return (
-      <div className="App">
-      <Intro  />
-      </div>
+      <>
+        <OrderDetails />
+      </>
   );
 }
 
