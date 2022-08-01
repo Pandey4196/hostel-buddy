@@ -525,6 +525,7 @@ padding-bottom: 0px;
   border-color: #FFFFFF;
   width: 100%;
   font-size: 20px;
+  color: white;
 }
 
 #name, #username, #regno, #email-id, #phone-number, #password{
@@ -536,7 +537,11 @@ padding-bottom: 0px;
   border-color: #FFFFFF;
   width: 100%;
   font-size: 27px;
+  color: #FFFFFF;
+  
 }
+
+
 
 ::placeholder{
   color: white;
