@@ -483,10 +483,33 @@ margin-bottom: 0px;
 padding-bottom: 0px;
 }
 
+.order-details-header{
+  position: relative;
+
+  left: 33%;
+  color: #FFFFFF;
+  
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 63px;
+margin-bottom: 0px;
+padding-bottom: 0px;
+}
+
 .input-box-1{
   position: relative;
 
   margin: 3% 35%;
+  color: transparent !important;
+
+  font-size: 33px;
+}
+.input-box-3{
+  position: relative;
+
+  margin: 5% 35%;
   color: transparent !important;
 
   font-size: 33px;
@@ -516,7 +539,7 @@ padding-bottom: 0px;
 #hostel-buddy-template-header{
   cursor: pointer;
 }
-#hostel-block{
+#hostel-block,#prdctname,#payment,#location,#contact,#email{
   background: transparent;
   border-radius: 3px;
   border-top: 1px;
