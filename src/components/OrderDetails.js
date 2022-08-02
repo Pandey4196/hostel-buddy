@@ -10,22 +10,22 @@ export default function OrderDetails() {
             <div className="signup-bg-box">
                 <h3 className="order-details-header">ORDER DETAILS</h3>
                 <div className="input-box-3">
-                <input  placeholder="Product Name" type="text" className="input-box-2" name="name" id="prdctname" />
+                <input  placeholder="Product Name" type="text" className="input-box-2" id="prdctname" />
                 </div>
                 <div className="input-box-3">
-                <input  placeholder="Payment Status" type="text" className="input-box-2" name="name" id="payment" />
+                <input  placeholder="Payment Status" type="text" className="input-box-2"  id="payment" />
                 </div> 
                 <div className="input-box-3">
-                <input placeholder="Pickup Location" type="text" className="input-box-2" name="username" id="location" />
+                <input placeholder="Pickup Location" type="text" className="input-box-2"  id="location" />
                 </div>
                 <div className="input-box-3">
-                <input placeholder="Hostel Block" type="text" className="input-box-2" name="hostel" id="hostel-block" />
+                <input placeholder="Hostel Block" type="text" className="input-box-2"  id="hostel-block" />
                 </div>
                 <div className="input-box-3">
-                <input placeholder="Email" type="text" className="input-box-2" name="hostel block" id="email" />
+                <input placeholder="Email" type="text" className="input-box-2"  id="email" />
                 </div>
                 <div className="input-box-3">
-                <input placeholder="Contact Details" type="text" className="input-box-2" name="hostel block" id="contact" />
+                <input placeholder="Contact Details" type="text" className="input-box-2"  id="contact" />
                 </div>
                 <div>
                 <button type="button" className="submit-button-signup" id="submit">SUBMIT</button>
