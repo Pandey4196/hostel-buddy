@@ -17,7 +17,7 @@ export default function SignupForm() {
                 <input placeholder="Username" type="text" className="input-box-2" name="username" id="username" />
                 </div>
                 <div className="input-box-1">
-                <input placeholder="Reg. No" type="text" className="input-box-2" name="regno" id="regno" />
+                <input placeholder="Reg. No." type="text" className="input-box-2" name="regno" id="regno" />
                 </div>
                 <div className="input-box-1">
                 <input placeholder="Hostel Block" type="text" className="input-box-2" name="hostel block" id="hostel-block" />
@@ -26,7 +26,7 @@ export default function SignupForm() {
                 <input placeholder="Email" type="email" className="input-box-2" name="email-id" id="email-id" />
                 </div>
                 <div className="input-box-1">
-                <input placeholder="Moblie" type="text" className="input-box-2" name="phone-number" id="phone-number"  />
+                <input placeholder="Mobile" type="text" className="input-box-2" name="phone-number" id="phone-number"  />
                 </div>
                 <div className="input-box-1">
                 <input placeholder="Password" type="password" className="input-box-2" name="password" id="password" />

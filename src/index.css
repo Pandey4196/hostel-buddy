@@ -542,7 +542,20 @@ padding-bottom: 0px;
 #hostel-buddy-template-header{
   cursor: pointer;
 }
-#hostel-block,#prdctname,#payment,#location,#contact,#email{
+
+#hostel-block{
+  background: transparent;
+  border-radius: 3px;
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-color: #FFFFFF;
+  width: 100%;
+  font-size: 26px;
+  color: white;
+}
+
+#prdctname,#payment,#location,#contact,#email{
   background: transparent;
   border-radius: 3px;
   border-top: 1px;
