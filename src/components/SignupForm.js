@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import Template from "./Template";
+
 import { Link } from "react-router-dom";
+import Template from "./Template";
 
 export default function SignupForm() {
 
