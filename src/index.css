@@ -14,14 +14,17 @@ body {
 .main-solid {
   background-image: url(./images/mainbg.png);
   height: 727px;
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0% 0% 0% 0%;
+  padding: 0% 0% 0% 0%;
 }
 
 .logo {
-  width: 133px;
+  width: 8%;
   height: fit-content;
-  padding-left: 1390px;
+  padding-left: 91%;
   padding-top: 0.5%;
 
 }
@@ -30,7 +33,7 @@ body {
   font-family: 'Inter';
   position: absolute;
 width: 10%;
-height: 66.67px;
+height: 10%;
 left: 2%;
 top: 3.5%;
 background: #1F1F1F;
@@ -47,7 +50,7 @@ cursor: pointer;
 
 position: absolute;
 width: 10%;
-height: 66.67px;
+height: 10%;
 left: 14%;
 top: 3.5%;
 background: #1DC789;
@@ -58,30 +61,9 @@ font-size: 20px;
 cursor: pointer;
 }
 
-.main-solid-one {
-  position: absolute;
-width: 1101px;
-height: 1081px;
-left: -6px;
-top: -1px;
-
-background: #1DC789;
-}
-
-.main-solid-two{
-  position: absolute;
-width: 1101px;
-height: 1081px;
-left: 119px;
-top: -1px;
-
-/* aaaaaaa */
-
-background: linear-gradient(180deg, #1BC789 19.58%, rgba(30, 198, 137, 0) 100%);
-}
 .sidebar {
   position: absolute;
-width: 53px;
+width: 3.4%;
 height: 100%;
 padding: 0%;
 left: 0px;
@@ -103,19 +85,15 @@ background: #333;
 
 .header1 {
   position: absolute;
-width: 239.02px;
-height: 20.7px;
-left: 29px;
+width: 23%;
+height: 33%;
+left: 1.9%;
 top: 0px;
-
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 800;
 font-size: 24px;
-line-height: 63px;
-/* or 185% */
-
+line-height: 185%;
 display: flex;
 align-items: center;
 text-align: center;
@@ -126,18 +104,15 @@ color: #FFFFFF;
 
 .header2 {
   position: absolute;
-width: 239.02px;
-height: 20.7px;
-left: 109px;
+width: 23%;
+height: 33%;
+left: 7.1%;
 top: 0px;
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 100;
 font-size: 24px;
-line-height: 63px;
-/* or 185% */
-
+line-height: 185%;
 display: flex;
 align-items: center;
 text-align: center;
@@ -551,11 +526,11 @@ padding-bottom: 0px;
   border-right: 1px;
   border-color: #FFFFFF;
   width: 100%;
-  font-size: 26px;
+  font-size: 20px;
   color: white;
 }
 
-#prdctname,#payment,#location,#contact,#email{
+#prdctname,#location,#contact,#email,#payment{
   background: transparent;
   border-radius: 3px;
   border-top: 1px;
@@ -565,7 +540,14 @@ padding-bottom: 0px;
   width: 100%;
   font-size: 20px;
   color: white;
+
 }
+
+#input-box-3{
+  position: relative;
+  display: inline-block;
+}
+
 
 #name, #username, #regno, #email-id, #phone-number, #password{
   background: transparent;
@@ -580,8 +562,108 @@ padding-bottom: 0px;
   
 }
 
+#search-friends{
+  position: absolute;
+width: 35%;
+height: 6%;
+left: 35%;
+top:18%;
+border: 0px;
+  background-color: #d9d9d9;
+  border-radius: 5%;
+}
+
+#search-friends::placeholder{
+  color: #000000;
+  opacity: 0.7;
+  font-family: 'Inter';
+  text-align: left;
+  padding-left: 7%;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+
+  font-size: 155%;
+  padding-top: 11%;
+  vertical-align: bottom;
+}
+
+#search-logo{
+  position: absolute;
+  top: 100px;
+  color: #FFFFFF;
+  left: 500px;
+  fill: #FFFFFF;
+}
+
+#requests-header{
+  padding-left: 15%;
+  padding-top: 14%;
+  color: #FFFFFF;
+  font-size: 100%;
+
+}
+
+.flexbox-requestbox{
+  display: flex;
+  padding-right: 5%;
+}
+
+.request-box{
+  display: flexbox;
+  position: inherit;
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 0px;
+  font-size: 185%;
+  padding-left: 3%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  background: #555555;
+  border-radius: 16px;  
+  width: 35%;
+  height: 40%;
+  margin-bottom: 4.5%;
+  color: #FFFFFF;
+}
+
+.accept-friend-button{
+  display:inline-flex;
+  vertical-align: middle;
+  margin: 0px 0px 0px 0px;
+  padding: 0% 0px 0px 0px;
+
+
+}
+
+.accept-friend-button-2{
+
+  display: flex;
+  justify-content: center;
+  padding-top: 9%;
+  border: 0px;
+padding-right: 5%;
+  border-radius: 90%;
+  background-color: #555555;
+  margin-left: 55%;
+  color: #FFFFFF;
+  font-size: 255%;
+  height: min-content;
+  
+  border: 1px solid transparent;
+}
+
+.accept-friend-button-2:hover{
+  background-color: #1f1f1f;
+  border: 1px solid #d9d9d9;
+}
+
 ::placeholder{
   color: white;
   text-align: center;
   opacity: 1;
+}
+
+input:focus,select:focus,textarea:focus{
+  outline: none;
+
 }
